@@ -1,0 +1,25 @@
+header {
+  border-bottom: solid 1px #e5e7eb;
+
+  .container {
+    width: 100%;
+    max-width: 90vw;
+    box-sizing: border-box;
+    height: 4rem;
+    margin: 0px auto;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    display: flex;
+    align-items: center;
+
+    .site-title {
+      margin: 0px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.75rem;
+      color: #137fec;
+    }
+  }
+}
