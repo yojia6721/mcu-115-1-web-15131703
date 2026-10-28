@@ -1,5 +1,5 @@
 header {
-  border-bottom: solid 1px #e5e7eb;
+  border-bottom: solid 1px var(--border-color);
 
   .container {
     width: 100%;
@@ -23,7 +23,7 @@ header {
         font-size: 1.25rem;
         font-weight: 700;
         line-height: 1.75rem;
-        color: #137fec;
+        color: var(--primary-color);
       }
 
       .header-brand,
@@ -50,11 +50,10 @@ header {
         gap: 1.5rem;
 
         a {
-          color: #4b5563;
+          color: var(--text-color);
           text-decoration: inherit;
-
           &:hover {
-            color: #137fec;
+            color: var(--primary-color);
           }
         }
       }
@@ -68,14 +67,14 @@ header {
           width: 200px;
           padding: 1rem 0.5rem 1rem 1rem;
           border: none;
-          background-color: #f3f4f6;
+          background-color: var(--gray-color-100);
         }
         button {
           border-top-right-radius: 1rem;
           border-bottom-right-radius: 1rem;
           padding: 0.5rem;
           border: none;
-          background-color: #f3f4f6;
+          background-color: var(--gray-color-100);
           cursor: pointer;
         }
       }
