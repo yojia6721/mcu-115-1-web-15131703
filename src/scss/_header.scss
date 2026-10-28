@@ -69,6 +69,7 @@ header {
           border: none;
           background-color: var(--gray-color-100);
         }
+
         button {
           border-top-right-radius: 1rem;
           border-bottom-right-radius: 1rem;
@@ -78,6 +79,21 @@ header {
           cursor: pointer;
         }
       }
+
+      button {
+        background-color: transparent;
+        padding: 0.5rem;
+        border: none;
+        cursor: pointer;
+        color: var(--text-color);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
+  }
+  .material-symbols-outlined {
+    font-size: 1.5rem;
+    line-height: 1;
   }
 }
